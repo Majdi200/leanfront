@@ -49,10 +49,11 @@ export default class Register extends Component {
         console.log(serverRes);
       })
       .catch(serverErr => {
-        this.setState({
-          errMessage: serverErr.response.data.message.toUpperCase()
-        });
-        console.error(serverErr.response.data.message);
+        if (serverErr.response) {
+          this.setState({
+            errMessage: serverErr.response.data.message.toUpperCase()
+          });
+        }
       });
   };
 

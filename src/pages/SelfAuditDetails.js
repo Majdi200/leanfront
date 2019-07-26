@@ -85,6 +85,7 @@ export default class SelfAuditDetails extends React.Component {
 
   render() {
     const { chapterDetails } = this.state;
+    if (!chapterDetails) return <h3>Chargements...</h3>;
     console.log(this.getChapterIndex(), this.state);
     return (
       <AuthConsumer>
