@@ -1,0 +1,59 @@
+.admin {
+  color: white;
+}
+
+.home-btn {
+  z-index: 10;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.btn-create {
+  margin-bottom: 40px;
+}
+.margin-5 {
+  margin: 1rem;
+}
+.dropdown-item,
+.nav-link {
+  cursor: pointer;
+}
+
+.describMargin {
+  margin-top: 25px;
+}
+
+.register_infos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.register_infos h5 {
+  color: red;
+  border: 1px red solid;
+}
+
+.chapters-list {
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+  width: 35%;
+}
+
+.chapterButton {
+  display: flex;
+  justify-content: space-evenly;
+}
+.chapterButton button {
+  text-align: center;
+  margin: 0 10px;
+  width: 15vw;
+}
+
+.imgCaroussel {
+  width: 75vw;
+}
+
+.MyLogo {
+  width: 5%;
+  height: 5%;
+}
